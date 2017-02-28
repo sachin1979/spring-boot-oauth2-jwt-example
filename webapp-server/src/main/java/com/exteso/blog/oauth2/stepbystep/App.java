@@ -31,7 +31,9 @@ public class App {
 
     @RequestMapping(value = "/api/message", method = RequestMethod.GET)
     public Map<String, String> getMessage() {
-        return resourceServerProxy.getForObject("http://localhost:9090", Map.class);
+    	 Map<String, String> respMap = resourceServerProxy.getForObject("http://localhost:9090", Map.class);
+    	 System.out.println(respMap);
+    	 return respMap;
     }
 
     @RequestMapping(value = "/api/message", method = RequestMethod.POST)
