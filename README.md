@@ -1,8 +1,7 @@
-This repo has been started by [@syjer](https://github.com/syjer) as [oauthtest](https://github.com/exteso/oauthtest), to cleanup history and make it cleaner for a blog post I created this new Repo
+Taken from
+http://www.swisspush.org/security/2016/10/17/oauth2-in-depth-introduction-for-enterprises
 
-This example is based on the following resources:
-
- - http://stytex.de/blog/2016/02/01/spring-cloud-security-with-oauth2/
+- http://stytex.de/blog/2016/02/01/spring-cloud-security-with-oauth2/
  - https://github.com/spring-cloud-samples/authserver/blob/master/src/main/java/demo/AuthserverApplication.java
  - http://projects.spring.io/spring-security-oauth/docs/oauth2.html
  - https://github.com/spring-guides/tut-spring-boot-oauth2/
